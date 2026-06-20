@@ -75,8 +75,6 @@ class _TeacherDashboardScreenState extends State<TeacherDashboardScreen> {
     });
   }
 
-  // ─── Inline Edit ──────────────────────────────────────────────────────
-
   void _startEditing(Student student) {
     setState(() {
       _editingRollNumber = student.rollNumber;
@@ -144,8 +142,6 @@ class _TeacherDashboardScreenState extends State<TeacherDashboardScreen> {
     }
   }
 
-  // ─── Delete ───────────────────────────────────────────────────────────
-
   Future<void> _deleteStudent(Student student) async {
     final confirmed = await showDeleteConfirmationDialog(
       context: context,
@@ -185,8 +181,6 @@ class _TeacherDashboardScreenState extends State<TeacherDashboardScreen> {
       }
     }
   }
-
-  // ─── Add Student ──────────────────────────────────────────────────────
 
   void _showAddStudentDialog() {
     final addFormKey = GlobalKey<FormState>();
@@ -421,8 +415,6 @@ class _TeacherDashboardScreenState extends State<TeacherDashboardScreen> {
     );
   }
 
-  // ─── Build ────────────────────────────────────────────────────────────
-
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -533,8 +525,7 @@ class _TeacherDashboardScreenState extends State<TeacherDashboardScreen> {
     );
   }
 
-  // ─── Student Card ─────────────────────────────────────────────────────
-
+  //Student Card
   Widget _buildStudentCard(Student student, bool isEditing) {
     return Card(
       color: Colors.white,
@@ -549,8 +540,6 @@ class _TeacherDashboardScreenState extends State<TeacherDashboardScreen> {
       ),
     );
   }
-
-  // ─── Display Mode ─────────────────────────────────────────────────────
 
   Widget _buildDisplayMode(Student student) {
     return Column(
@@ -702,8 +691,6 @@ class _TeacherDashboardScreenState extends State<TeacherDashboardScreen> {
       ),
     );
   }
-
-  // ─── Edit Mode ────────────────────────────────────────────────────────
 
   Widget _buildEditMode(Student student) {
     return Form(
