@@ -5,10 +5,12 @@ class FirestoreService {
   final FirebaseFirestore _db = FirebaseFirestore.instance;
   Future<void> addRecord(Student student) async {
     try {
-      await _db
-          .collection('students')
-          .doc(student.rollNumber)
-          .set(student.toMap());
+      final docRef = _db.collection('students').doc(student.rollNumber);
+      final docSnap = await docRef.get();
+      if (docSnap.exists) {
+        throw Exception('Student with this roll number already exists');
+      }
+      await docRef.set(student.toMap());
     } catch (e) {
       //Show Error Message
       //Temp

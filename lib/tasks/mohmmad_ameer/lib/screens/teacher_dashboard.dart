@@ -347,7 +347,11 @@ class _TeacherDashboardScreenState extends State<TeacherDashboardScreen> {
                             if (mounted) {
                               ScaffoldMessenger.of(context).showSnackBar(
                                 SnackBar(
-                                  content: const Text('Failed to add student.'),
+                                  content: Text(
+                                    e.toString().contains('already exists')
+                                        ? 'A student with this roll number already exists!'
+                                        : 'Failed to add student.',
+                                  ),
                                   backgroundColor: Colors.red.shade600,
                                   behavior: SnackBarBehavior.floating,
                                   shape: RoundedRectangleBorder(
