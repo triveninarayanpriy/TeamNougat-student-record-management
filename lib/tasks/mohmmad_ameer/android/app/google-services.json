@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "650115318241",
+    "project_id": "induction-task-86df4",
+    "storage_bucket": "induction-task-86df4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:650115318241:android:6c2d751d4e6b0463d2d2a0",
+        "android_client_info": {
+          "package_name": "com.example.induction_task"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFCy036g5n3d-UsiXaSD2LJxsxAs0wgp8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:650115318241:android:f536972f4320c39cd2d2a0",
+        "android_client_info": {
+          "package_name": "com.example.mohmmad_ameer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFCy036g5n3d-UsiXaSD2LJxsxAs0wgp8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
