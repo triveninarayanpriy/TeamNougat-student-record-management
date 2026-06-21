@@ -68,6 +68,26 @@ flutter run
 
 ---
 
+## 📸 UI Showcase
+
+| Role Selection / Landing Page | Teacher Dashboard |
+| :---: | :---: |
+| <img src="assets/screenshots/landing_page.png" width="250"> | <img src="assets/screenshots/teacher_dashboard.png" width="250"> |
+
+| Add Student Bottom Sheet | Dashboard Search by Name |
+| :---: | :---: |
+| <img src="assets/screenshots/add_student.png" width="250"> | <img src="assets/screenshots/student_search_by_name.png" width="250"> |
+
+| Dashboard Search by Roll No. | Student Portal (Fetch Record) |
+| :---: | :---: |
+| <img src="assets/screenshots/student_search_by_roll.png" width="250"> | <img src="assets/screenshots/student_record_fetch.png" width="250"> |
+
+| Student Details View | Student Details Inline Edit |
+| :---: | :---: |
+| <img src="assets/screenshots/student_details.png" width="250"> | <img src="assets/screenshots/student_details_edit.png" width="250"> |
+
+---
+
 ## 🛠️ Tech Stack
 - **Framework:** Flutter / Dart
 - **Backend/Database:** Firebase Firestore
