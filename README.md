@@ -1,1 +1,1 @@
-TeamNougat-student-record-management
+Student Record Management Flutter
