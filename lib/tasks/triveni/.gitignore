@@ -1,4 +1,32 @@
 # Miscellaneous
+*.json
+!google-services.json
+google-services.json
+ 
+# Flutter/Dart build artifacts
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+*.g.dart
+ 
+# VS Code workspace settings (optional — remove if your team uses shared settings)
+.vscode/
+ 
+# Android signing keys — never commit these
+*.jks
+*.keystore
+key.properties
+ 
+# iOS signing
+ios/Runner/GoogleService-Info.plist
+ 
+# Environment / secrets
+.env
+*.env
+secrets.dart
+ 
 *.class
 *.log
 *.pyc
