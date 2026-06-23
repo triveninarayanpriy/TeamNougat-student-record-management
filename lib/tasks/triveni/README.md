@@ -71,7 +71,7 @@ This project was submitted as part of the **TeamNougat Flutter Club Task** at **
 
 | Edit Student | Delete / Confirmation |
 |:---:|:---:|
-| ![Edit](screenshots/editstudent.png) | ![Delete](screenshots/deletescreen.png) |
+| ![Edit](screenshots/editstudent.png) | ![Delete](screenshots/deletescreenn.png) |
 
 | Search Student | Figma Design Reference |
 |:---:|:---:|
